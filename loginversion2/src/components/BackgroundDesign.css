@@ -1,0 +1,169 @@
+/* Main container */
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.left-section {
+  width: 933px;
+  height: 1024px;
+  background: #f9ed69;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.welcome-text {
+  position: absolute;
+  left: 241px;
+  top: 393px;
+  width: 382px;
+  height: 192px;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 2%;
+  color: #07122f;
+  text-align: left;
+  z-index: 4;
+}
+
+/* Subtext */
+.subtext {
+  position: absolute;
+  left: 289px;
+  top: 609px;
+  width: 305px;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 200%;
+  letter-spacing: 2%;
+  color: #07122f;
+  text-align: left;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1;
+  border: 1px solid rgba(2, 58, 174, 0.3);
+}
+
+.ellipse-14 {
+  width: 1786px;
+  height: 1786px;
+  left: -628px;
+  top: -560px;
+  background-color: #f9ed69;
+  background: radial-gradient(circle, #f9ed69 100%);
+}
+
+.ellipse-13 {
+  width: 1636.92px;
+  height: 1636.92px;
+  left: -554.92px;
+  top: -485.46px;
+  background: #f9ed69;
+}
+
+.ellipse-12 {
+  width: 1520px;
+  height: 1520px;
+  left: -496.46px;
+  top: -427px;
+  background: #f9ed69;
+}
+
+.ellipse-11 {
+  width: 1344.62px;
+  height: 1377.62px;
+  left: -408.77px;
+  top: -339.31px;
+  background: #f9ed69;
+}
+
+.ellipse-10 {
+  width: 1169.23px;
+  height: 1169.23px;
+  left: -321.08px;
+  top: -251.62px;
+  background: #f9ed69;
+}
+
+.ellipse-9 {
+  width: 993.85px;
+  height: 993.85px;
+  left: -233.38px;
+  top: -163.92px;
+  background: #f9ed69;
+}
+
+.ellipse-8 {
+  width: 818.46px;
+  height: 818.46px;
+  left: -145.69px;
+  top: -76.23px;
+  background: #f9ed69;
+}
+
+.ellipse-7 {
+  width: 643.08px;
+  height: 643.08px;
+  left: -58px;
+  top: -11.46px;
+  background: #f9ed69;
+}
+
+.ellipse-6 {
+  width: 467.69px;
+  height: 467.69px;
+  left: 29.69px;
+  top: 99.15px;
+  background: #f9ed69;
+}
+
+.ellipse-5 {
+  width: 292.31px;
+  height: 292.31px;
+  left: 117.38px;
+  top: 186.85px;
+  background: #f9ed69;
+}
+
+.ellipse-4 {
+  width: 292.31px;
+  height: 292.31px;
+  position: absolute;
+  left: 117.38px;
+  top: 186.85px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9ed69;
+}
+
+.ellipse-3 {
+  position: absolute;
+  width: 116.92px;
+  height: 116.92px;
+  left: 205.08px;
+  top: 274.54px;
+  background-color: #f9ed69;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grafhi-logo {
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
